@@ -1,0 +1,10 @@
+-SQL: ajouter une date de naissance à user, possible?
+	ajouter une image pour le livre, possible?
+	ajouter une date d'emprunt du livre, possible?
+
+-Api.js: j'ai  modifié le api.js avec  les noms des variables de ta base de donnée pourles 4/5 (jusqu'à FIN MODICATION)
+	   j'ai l'impression que pour l'api en dehors du fait qu'il faut ajouter des fonctions pour l'administrateur le plus gros est fait grâce au tp4
+
+-Pour lancer le serveur tu as utilisé nodemon? car je t'avoue j'arrive plus à lancer les serveur même celui du tp3 qui marchait
+
+-power point: chaud pour qu'on le fasse ensemble, je voulais te proposer de le faire mais je trouve tes power point de manière général plus stylé que les miens 

@@ -1,0 +1,31 @@
+{
+  "livres": [
+    {
+      "isbn": 2070355748,
+      "titre": "Le Capital",
+      "auteur": "Karl Marx",
+      "editeur": "Folio",
+      "date_publication": "2008-06-01",
+      "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/ba/ef/20/2158522/1507-1/tsp20201111071540/Le-Capital.jpg",
+      "nb_exemplaire": 6
+    },
+    {
+      "isbn": 2070518604,
+      "titre": "La chèvre de Monsieur Seguin",
+      "auteur": "Alphonse Daudet",
+      "editeur": "Folio",
+      "date_publication": "2005-03-10",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71-CKesanGL.jpg",
+      "nb_exemplaire": 5
+    },
+    {
+      "isbn": 2845385544,
+      "titre": "City Hunter - Volume 1",
+      "auteur": "Tsukasa Hojo",
+      "editeur": "Panini Manga",
+      "date_publication": "2005-10-07",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71p6WEzAMAL.jpg",
+      "nb_exemplaire": 4
+    }
+  ]
+}

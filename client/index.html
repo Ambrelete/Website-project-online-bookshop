@@ -1,0 +1,32 @@
+<!doctype>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>BibliEFREI</title>
+        <!-- Load Vue followed by Vue Router -->
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/http-vue-loader/src/httpVueLoader.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <div id="app">
+          <header>
+            <h1>BibliEFREI</h1>
+            <h2>Site de gestion de la bibliothèque de l'EFREI</h2>
+            <nav>
+              <router-link to='/'>Accueil</router-link>
+              <router-link to='/panier'>Panier</router-link>
+              <router-link to='/catalogue'>Catalogue</router-link>
+            </nav>
+          </header>
+          <main>
+            <router-view
+              :panier="panier"
+              :livres="livres"
+            ></router-view>
+          </main>
+        </div>
+        <script src="/vue-application.js"></script>
+  </body>
+</html>
